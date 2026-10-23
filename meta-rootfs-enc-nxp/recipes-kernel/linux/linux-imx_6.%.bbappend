@@ -10,7 +10,7 @@
 # Copyright (c) 1983-2026 Advantech Co., Ltd. All rights reserved.
 #
 
-inherit rootfs_enc
+inherit imx_rootfs_enc
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:${THISDIR}/${PN}/common:"
 

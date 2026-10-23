@@ -192,8 +192,7 @@ Secure Boot:
 
 Secure Boot + root filesystem encryption:
 
-- Most Advantech HABv4 machines with operative Secure Boot should work.
-- Advantech AHAB boards having issues: aom5521a2-db2510, rom2620-ed91, rom2820-ed93 (related to how `fdt_addr` is relocated in U-Boot instead of relying on the bootloader image, that got fixed in Yocto 5.2 (walnascar))
+- Most Advantech AHAB and HABv4 machines work. Exceptions: aom5521a2-db2510, ecu150a1 (work in progress)
 - NXP EVKs tested: imx8ulp-lpddr4-evk (AHAB), imx8mpevk (HABv4)
 
 ## i.MX on Yocto 5.1 (styhead)
@@ -210,7 +209,7 @@ Secure Boot:
 
 Secure boot + root filesystem encryption:
 
-- Same limitations as Yocto 5.0 (scarthgap), as the FDT address propagation for NXP got fixed in Yocto 5.2 (walnascar)
+- Most Advantech AHAB and HABv4 machines work. Exceptions: aom5521a2-db2510, ecu150a1 (work in progress)
 - NXP EVKs tested: imx8ulp-lpddr4-evk (AHAB), imx8mpevk (HABv4)
 
 ## i.MX on Yocto 5.2 (walnascar)

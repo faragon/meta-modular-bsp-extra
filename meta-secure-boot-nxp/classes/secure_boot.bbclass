@@ -25,7 +25,7 @@ OVERRIDES:append:mx8m-generic-bsp = ":caam"
 OVERRIDES:append:mx8ulp-generic-bsp = ":caam:ele"
 OVERRIDES:append:mx8qm-generic-bsp = ":caam"
 OVERRIDES:append:mx8x-generic-bsp = ":caam"
-OVERRIDES:append:mx9-generic-bsp = ":ele"
+OVERRIDES:append:mx9-generic-bsp = ":ele:ele-ocram-tee"
 
 OVERRIDES:append:mx8m-generic-bsp = ":hab4"
 OVERRIDES:append:mx8ulp-generic-bsp = ":ahab"
